@@ -14,3 +14,23 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+HOW TO INSTALL REACT IN YOUR PROJECT
+1. npm create vite@latest my-project
+2. cd my-project
+3. npm i
+4. npm run dev
+
+HOW TO INSTALL TAILWINDCSS IN YOUR PROJECT
+1. npm intall tailwindcss @tailwindcss/vite
+2. Configure the Vite plugin.
+   (
+    Add the @tailwindcss/vite plugin to your Vite configuration - vite.config.js.
+    import tailwindcss from '@tailwindcss/vite'
+    export default defineConfig({
+     plugins: [
+     tailwindcss(),
+    ],
+    })
+   )
+3. import tailwind in your css file
