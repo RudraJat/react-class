@@ -35,8 +35,8 @@ function App(){
             
         // </div> */}
         {/* <Footer />  */}
-        <FunWelcome/>
-        <ClaWelcome/>
+        <FunWelcome name="Rudra" age="20"/>
+        <ClaWelcome name="Rudra" age="20"/>
         <Caprac/>
         </>
 
