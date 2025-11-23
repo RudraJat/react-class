@@ -2,6 +2,8 @@
 
 const Caprac =()=>{
 
+// ---UNIT:1---
+
 //Q.1 Write a JS program to demonstrate var,let and const
 // var a=1;
 // let b=2;
@@ -72,7 +74,8 @@ const Caprac =()=>{
 // }
 // console.log(sum(1,2,3,4,5,6));
 
-//Q.6
+
+
 
 };
 export default Caprac;
