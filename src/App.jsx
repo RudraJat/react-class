@@ -15,9 +15,10 @@ import './App.css';
 // import Array from './components/Array.jsx';
 // import Greeting from './components/Greeting.jsx';
 
+import Caprac from './CA/Caprac';
 import FunWelcome from './CA/FunWelcome';
 import ClaWelcome from './CA/ClaWelcome';
-import Caprac from './CA/Caprac';
+import Click from './CA/Click';
 
 function App(){
 
@@ -35,6 +36,7 @@ function App(){
             
         // </div> */}
         {/* <Footer />  */}
+        <Click/>
         <FunWelcome name="Rudra" age="20"/>
         <ClaWelcome name="Rudra" age="20"/>
         <Caprac/>
