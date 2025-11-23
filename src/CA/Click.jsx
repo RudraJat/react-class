@@ -11,7 +11,7 @@ function Click(){
         <button onClick={()=>{if (count>0){
             setCount(count-1)
         }
-        }} className="border-2 m-2">Decrease</button>
+        }} className="border-2 m-2 bg-amber-200">Decrease</button>
         <button onClick={()=>setCount(0)} className="border-2 m-2">Reset</button>
         </>
     )
