@@ -19,6 +19,7 @@ import Caprac from './CA/Caprac';
 import FunWelcome from './CA/FunWelcome';
 import ClaWelcome from './CA/ClaWelcome';
 import Click from './CA/Click';
+import MapList from './CA/MapList';
 
 function App(){
 
@@ -37,6 +38,7 @@ function App(){
         // </div> */}
         {/* <Footer />  */}
         <Click/>
+        <MapList/>
         <FunWelcome name="Rudra" age="20"/>
         <ClaWelcome name="Rudra" age="20"/>
         <Caprac/>
