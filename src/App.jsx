@@ -15,13 +15,17 @@ import './App.css';
 // import Array from './components/Array.jsx';
 // import Greeting from './components/Greeting.jsx';
 
-import Caprac from './CA/Caprac';
-import FunWelcome from './CA/FunWelcome';
-import ClaWelcome from './CA/ClaWelcome';
-import Click from './CA/Click';
-import MapList from './CA/MapList';
-import Alert from './CA/Alert';
-import AddButton from './CA/AddButton';
+//CA practice
+// import Caprac from './CA/Caprac';
+// import FunWelcome from './CA/FunWelcome';
+// import ClaWelcome from './CA/ClaWelcome';
+// import Click from './CA/Click';
+// import MapList from './CA/MapList';
+// import Alert from './CA/Alert';
+// import AddButton from './CA/AddButton';
+// import ShowText from './CA/ShowText';
+// import Toggle from './CA/Toggle';
+import ComMount from './CA/ComMount';
 
 function App(){
 
@@ -39,13 +43,18 @@ function App(){
             
         // </div> */}
         {/* <Footer />  */}
-        <Click/>
+
+        {/* CA practice */}
+        {/* <Click/>
         <MapList/>
         <FunWelcome name="Rudra" age="20"/>
         <ClaWelcome name="Rudra" age="20"/>
         <Caprac/>
         <Alert/>
-        <AddButton/>
+        <AddButton/> */}
+        {/* <ShowText/>
+        <Toggle/> */}
+        <ComMount/>
         </>
 
     )
