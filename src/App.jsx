@@ -26,6 +26,7 @@ import './App.css';
 // import ShowText from './CA/ShowText';
 // import Toggle from './CA/Toggle';
 import ComMount from './CA/ComMount';
+import Time from './CA/Time';
 
 function App(){
 
@@ -55,6 +56,7 @@ function App(){
         {/* <ShowText/>
         <Toggle/> */}
         <ComMount/>
+        <Time/>
         </>
 
     )
