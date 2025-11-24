@@ -20,6 +20,8 @@ import FunWelcome from './CA/FunWelcome';
 import ClaWelcome from './CA/ClaWelcome';
 import Click from './CA/Click';
 import MapList from './CA/MapList';
+import Alert from './CA/Alert';
+import AddButton from './CA/AddButton';
 
 function App(){
 
@@ -42,6 +44,8 @@ function App(){
         <FunWelcome name="Rudra" age="20"/>
         <ClaWelcome name="Rudra" age="20"/>
         <Caprac/>
+        <Alert/>
+        <AddButton/>
         </>
 
     )
