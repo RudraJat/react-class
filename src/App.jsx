@@ -21,7 +21,7 @@ import './App.css';
 // import ClaWelcome from './CA/ClaWelcome';
 // import Click from './CA/Click';
 // import MapList from './CA/MapList';
-// import Alert from './CA/Alert';
+import Alert from './CA/Alert';
 // import AddButton from './CA/AddButton';
 // import ShowText from './CA/ShowText';
 // import Toggle from './CA/Toggle';
@@ -55,13 +55,13 @@ function App(){
         <FunWelcome name="Rudra" age="20"/>
         <ClaWelcome name="Rudra" age="20"/>
         <Caprac/>
-        <Alert/>
+        
         <AddButton/> */}
         {/* <ShowText/>
         <Toggle/> */}
         {/* <ComMount/>
         <Time/> */}
-       
+       <Alert/>
         <MyContext.Provider value={{count, setCount}}>
             <Child/>
         </MyContext.Provider>
