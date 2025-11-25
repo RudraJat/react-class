@@ -25,10 +25,14 @@ import './App.css';
 // import AddButton from './CA/AddButton';
 // import ShowText from './CA/ShowText';
 // import Toggle from './CA/Toggle';
-import ComMount from './CA/ComMount';
-import Time from './CA/Time';
+// import ComMount from './CA/ComMount';
+// import Time from './CA/Time';
+import { MyContext } from './CA/Context';
+import Child from './CA/Child';
 
 function App(){
+
+    const[count, setCount]=useState(0);
 
     return(
         <>
@@ -55,8 +59,12 @@ function App(){
         <AddButton/> */}
         {/* <ShowText/>
         <Toggle/> */}
-        <ComMount/>
-        <Time/>
+        {/* <ComMount/>
+        <Time/> */}
+       
+        <MyContext.Provider value={{count, setCount}}>
+            <Child/>
+        </MyContext.Provider>
         </>
 
     )
