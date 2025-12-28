@@ -14,6 +14,7 @@ import './App.css';
 // import Card from './components/Card.jsx';
 // import Array from './components/Array.jsx';
 // import Greeting from './components/Greeting.jsx';
+// import {Routes, Route} from 'react-router-dom';
 
 //CA practice
 // import Caprac from './CA/Caprac';
@@ -21,55 +22,73 @@ import './App.css';
 // import ClaWelcome from './CA/ClaWelcome';
 // import Click from './CA/Click';
 // import MapList from './CA/MapList';
-import Alert from './CA/Alert';
+// import Alert from './CA/Alert';
 // import AddButton from './CA/AddButton';
 // import ShowText from './CA/ShowText';
 // import Toggle from './CA/Toggle';
 // import ComMount from './CA/ComMount';
 // import Time from './CA/Time';
-import { MyContext } from './CA/Context';
-import Child from './CA/Child';
+// import { MyContext } from './CA/Context';
+// import Child from './CA/Child';
+// import Profile from './CA/Profile.jsx';
+// import Home from './CA/home.jsx';
+// import About from './CA/About.jsx';
+
+
+//FOR ETP
+import Hello from './ETPDay1-9/1Home.jsx';
 
 function App(){
 
-    const[count, setCount]=useState(0);
+    // const[count, setCount]=useState(0);
 
-    return(
-        <>
-        {/* <Header />
+//     return(
+//         <>
+//         {/* <Header />
        
-        <Food />
-        {/* <div className="flex flex-col min-h-screen">
-            <Card name="Rudra"/>
-            <Greeting name="Rudra"/>
-            <Parent/>
-            <Mapfil />
-            <Array />
+//         <Food />
+//         {/* <div className="flex flex-col min-h-screen">
+//             <Card name="Rudra"/>
+//             <Greeting name="Rudra"/>
+//             <Parent/>
+//             <Mapfil />
+//             <Array />
             
-        // </div> */}
-        {/* <Footer />  */}
+//         // </div> */}
+//         {/* <Footer />  */}
 
-        {/* CA practice */}
-        {/* <Click/>
-        <MapList/>
-        <FunWelcome name="Rudra" age="20"/>
-        <ClaWelcome name="Rudra" age="20"/>
-        <Caprac/>
+//         {/* CA practice */}
+//         {/* <Click/>
+//         <MapList/>
+//         <FunWelcome name="Rudra" age="20"/>
+//         <ClaWelcome name="Rudra" age="20"/>
+//         <Caprac/>
         
-        <AddButton/> */}
-        {/* <ShowText/>
-        <Toggle/> */}
-        {/* <ComMount/>
-        <Time/> */}
-       <Alert/>
-        <MyContext.Provider value={{count, setCount}}>
-            <Child/>
-        </MyContext.Provider>
-        </>
+//         <AddButton/> */}
+//         {/* <ShowText/>
+//         <Toggle/> */}
+//         {/* <ComMount/>
+//         <Time/> */}
+//        {/* <Alert/>
+//         <MyContext.Provider value={{count, setCount}}>
+//             <Child/>
+//         // </MyContext.Provider>
+//         // </> */}
+//         {/* // <Memo/>
+//         // </> */}
+//         <Routes>
+//             <Route path='/' element={<Home/>}/> 
+//             <Route path='/about' element={<About/>}/>
+//             <Route path='/profile' element={<Profile/>}/>
+//         </Routes>
+//         </>
+//     )
+// }
 
-    )
+return (
+    <>
+    <Hello/>
+    </>
+)
 }
-
-
-
-export default App
+export default App;
