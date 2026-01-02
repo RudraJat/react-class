@@ -37,6 +37,9 @@ import './App.css';
 
 //FOR ETP
 import Hello from './ETPDay1-9/1Home.jsx';
+import User from './ETPDay1-9/2funCom.jsx';
+import BtnDisable from './ETPDay1-9/3useState.jsx';
+
 
 function App(){
 
@@ -87,7 +90,8 @@ function App(){
 
 return (
     <>
-    <Hello/>
+    <User name="Rudra" location="Gwalior"/>
+    <BtnDisable/>
     </>
 )
 }
