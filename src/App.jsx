@@ -40,6 +40,8 @@ import Hello from './ETPDay1-9/1Home.jsx';
 import User from './ETPDay1-9/2funCom.jsx';
 import BtnDisable from './ETPDay1-9/3useState.jsx';
 import Counter from "./ETPDay1-9/4classComp.jsx";
+import Register from "./ETPDay1-9/5form.jsx";
+import Form from "./ETPDay1-9/5form.jsx";
 
 function App(){
 
@@ -90,7 +92,7 @@ function App(){
 
 return (
     <>
-    <Counter/>
+    <Form/>
     </>
 )
 }
