@@ -42,6 +42,10 @@ import BtnDisable from './ETPDay1-9/3useState.jsx';
 import Counter from "./ETPDay1-9/4classComp.jsx";
 import Register from "./ETPDay1-9/5form.jsx";
 import Form from "./ETPDay1-9/5form.jsx";
+import Profile from "./ETPDay1-9/6Profile.jsx";
+import Toggle from "./ETPDay1-9/6Toggle.jsx";
+import {UserContext} from "./ETPDay1-9/6UserContext.jsx";
+
 
 function App(){
 
@@ -90,9 +94,23 @@ function App(){
 //     )
 // }
 
+// const user = {
+//     name: "Rudra",
+//     age: 20
+// }
+
+// const [name, setName]= useState("rudra");
+// const [age, setAge]= useState(20);
+const [theme, setTheme]= useState("light");
+
 return (
     <>
-    <Form/>
+    {/* <UserContext.Provider value={{name, setName, age, setAge}}>
+        <Profile/>
+    </UserContext.Provider> */}
+    <UserContext.Provider value={{theme, setTheme}}>
+        <Toggle/>
+    </UserContext.Provider>
     </>
 )
 }
