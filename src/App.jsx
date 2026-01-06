@@ -45,7 +45,10 @@ import Form from "./ETPDay1-9/5form.jsx";
 import Profile from "./ETPDay1-9/6Profile.jsx";
 import Toggle from "./ETPDay1-9/6Toggle.jsx";
 import {UserContext} from "./ETPDay1-9/6UserContext.jsx";
-
+import CounterRed from "./ETPDay1-9/7useReducer.jsx";
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import Users from "./ETPDay1-9/7.axios.jsx";
+import InputColor from "./ETPDay1-9/7useRef.jsx";
 
 function App(){
 
@@ -101,17 +104,48 @@ function App(){
 
 // const [name, setName]= useState("rudra");
 // const [age, setAge]= useState(20);
-const [theme, setTheme]= useState("light");
+// const [theme, setTheme]= useState("light");
 
-return (
-    <>
-    {/* <UserContext.Provider value={{name, setName, age, setAge}}>
-        <Profile/>
-    </UserContext.Provider> */}
-    <UserContext.Provider value={{theme, setTheme}}>
-        <Toggle/>
-    </UserContext.Provider>
-    </>
+// return (
+//     <>
+//     {/* <UserContext.Provider value={{name, setName, age, setAge}}>
+//         <Profile/>
+//     </UserContext.Provider> */}
+//     {/* <UserContext.Provider value={{theme, setTheme}}>
+//         <Toggle/>
+//     </UserContext.Provider> */}
+//     </>
+// )
+
+// return(
+//     <>
+//     <CounterRed/>
+//     </>
+// )
+// return(
+//     <BrowserRouter>
+//         <Link to="/">Home</Link><br/>
+//         <Link to="/about">About</Link>
+
+//         <Routes>
+//             <Route  path="/" element={<h1 style={{color: "red"}}>Home Page</h1>}/>
+//             <Route  path="/about" element={<h1 style={{color: "blue"}}>About Page</h1>}/>
+//         </Routes>
+//     </BrowserRouter>
+// )
+
+
+// return(
+//     <>
+//     <Users/>
+//     </>
+// )
+
+return(
+    <div>
+        <InputColor/>
+    </div>
 )
+
 }
 export default App;
