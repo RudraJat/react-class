@@ -49,6 +49,9 @@ import CounterRed from "./ETPDay1-9/7useReducer.jsx";
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import Users from "./ETPDay1-9/7.axios.jsx";
 import InputColor from "./ETPDay1-9/7useRef.jsx";
+import {Provider} from "react-redux";
+import store from "./ETPDay1-9/reduxs/store.jsx";
+import CounterRedux from "./ETPDay1-9/reduxs/CounterRedux.jsx";
 
 function App(){
 
@@ -141,11 +144,17 @@ function App(){
 //     </>
 // )
 
-return(
-    <div>
-        <InputColor/>
-    </div>
-)
+// return(
+//     <div>
+//         <InputColor/>
+//     </div>
+// )
 
+
+return(
+    <Provider store = {store}>
+        <CounterRedux/>
+    </Provider>
+)
 }
 export default App;
