@@ -52,6 +52,9 @@ import InputColor from "./ETPDay1-9/7useRef.jsx";
 import {Provider} from "react-redux";
 import store from "./ETPDay1-9/reduxs/store.jsx";
 import CounterRedux from "./ETPDay1-9/reduxs/CounterRedux.jsx";
+import CounterRTK from "./ETPDay1-9/RTK/CounterRTK.jsx";
+import storeRtk from "./ETPDay1-9/RTK/storeRtk.jsx";
+
 
 function App(){
 
@@ -151,9 +154,15 @@ function App(){
 // )
 
 
+// return(
+//     <Provider store = {store}>
+//         <CounterRedux/>
+//     </Provider>
+// )
+
 return(
-    <Provider store = {store}>
-        <CounterRedux/>
+    <Provider store={storeRtk}>
+        <CounterRTK/>
     </Provider>
 )
 }
