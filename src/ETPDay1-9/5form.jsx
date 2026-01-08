@@ -37,7 +37,7 @@ function Form(){
     const [error, setError]=useState("");
 
     const handleSubmit=(e)=>{
-        e.preventDefault();
+        e.preventDefault();// Prevents page reload on form submission - it keeps the data intact
         if(name===""|| email===""){
             setError("all fileds are required");
         }else{
